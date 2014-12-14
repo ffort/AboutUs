@@ -1,7 +1,9 @@
 body{
 	color: blue;
+    font-size: 22px;
 }
 
 #contact_info{
 	border: dashed;
+
 }
