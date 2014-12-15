@@ -1,8 +1,37 @@
 body{
 	color: blue;
+	background-color: black;
+	padding: 15px;
 }
 
-#contact_info{
+table{
 	border: dashed;
+<<<<<<< HEAD
 
+=======
+}
+
+#huck{
+	text-align: right;
+}
+
+img{
+	border: solid;
+}
+
+#bio{
+	color: orange;
+}
+
+#hobbies{
+	color: red;
+}
+
+#why{
+	color: green;
+}
+
+h1{
+	text-align: center;
+>>>>>>> origin/NandosChanges
 }
