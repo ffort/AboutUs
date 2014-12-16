@@ -1,6 +1,84 @@
 body{
     background-image: url("http://cdn.playbuzz.com/cdn/ea956195-b784-418e-8997-6c56086b3163/38f96aaa-7091-4f63-9659-21972bd57364.jpg");
+    background-size: cover;
+
+    color: white;
+    font-family: Consolas;
+    text-align: center;
 }
+
+header{
+    text-align: center;
+    background-image: url("https://stormideaswus.blob.core.windows.net/headerjunction/2014/91/32fadc05-e0c7-42ca-b174-3bc6735dee21.jpg");
+    background-size: cover;
+    color: white;
+    background-origin: padding-box;
+    max-height: 100%;
+
+}
+
+h1 {
+    font-size: 70px
+}
+
+img{
+    margin: 0 auto;
+    border: 7px solid white;
+    border-radius: 20px;
+}
+
+
+body, header {
+    width: 100%;
+    margin: 0 auto;
+}
+#logo{
+
+    margin: 0px auto;
+}
+
+a{
+
+    font-family: Consolas;
+    font-size: 20px;
+    color: white;
+
+}
+ul{
+    background: black;
+    padding: 10px;
+
+}
+
+
+li{
+    display: inline;
+    padding: 0px 10px 0px 10px;
+
+}
+
+article{
+    max-width: 500px;
+    padding: 20px;
+    margin:0 auto;
+
+}
+
+
+@media (max-width: 500px) {
+body{
+
+  background: red;
+}
+h1{
+font-size: 36px;
+}
+li{
+display: block;
+padding: 5px;
+}
+}
+
 
 #contact_info{
     border: dashed;
