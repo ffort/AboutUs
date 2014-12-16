@@ -18,6 +18,8 @@ table{
 
 img{
 	border: solid;
+	height: 350px;
+	width: 350px;
 }
 
 #bio{
