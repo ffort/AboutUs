@@ -3,6 +3,7 @@
 		<title> Fernando's Page </title>
 		<link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
 		<script src="javascript/script.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -10,31 +11,31 @@
 		<h1> Welcome to my page! </h1>
 
 		<div id="huck">
-			<img src="images/Nando.jpeg">
+			<img src="images/Nando.jpeg" class="img-responsive img-thumbnail">
 		</div>
 
-		<h3> Bio </h3>
+		<h3 class="glyphicon glyphicon-book"> Bio </h3>
 			<div id="bio">
 					<p> I am a senior in college currently majoring in Computer Science. </p>
 					<p> Click here to view my <a href="#">Resume</a> </p>
 			</div>
 				<button id="button" onclick="showhidebio()">Click to show/hide bio</button> <br/>
 
-		<h3> Hobbies </h3>
+		<h3 class="glyphicon glyphicon-camera"> Hobbies </h3>
 			<div id="hobbies">
 					<p> My favorite thing to do is play video games. League of Legends is my favorite game right now. I also enjoy watching sports, mainly basketball. </p>
 			</div>
 				<button id="button" onclick="showhidehobbies()">Click to show/hide hobbies</button> <br/>
 
-		<h3> Why Did I make this site? </h3>
+		<h3 class="glyphicon glyphicon-facetime-video"> Why Did I make this site? </h3>
 			<div id="why">
 					<p> This site was made for practicing purposes. </p>
 			</div>
 				<button id="button" onclick="showhidewhy()">Click to show/hide the whys</button> <br/>
 
-		<h3>  Contact Information  </h3>
-			<div id = "contact_info">
-				<table>
+		<h3 class="glyphicon glyphicon-earphone">  Contact Information  </h3>
+			<div id = "contact_info" class="table-responsive">
+				<table class="table table-striped table-bordered">
 					<tr>
 						<th> Phone Number </th>
 						<th> Email </th>
