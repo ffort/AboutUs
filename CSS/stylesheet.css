@@ -16,6 +16,10 @@ table{
 	text-align: right;
 }
 
+.page_link{
+	padding-top: 50px;
+}
+
 img{
 	border: solid;
 	height: 350px;

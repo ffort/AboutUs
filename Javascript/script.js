@@ -20,17 +20,6 @@ function showhidehobbies(){
 	}
 }
 
-function showhidewhy(){
-	var div = document.getElementById("why");
-
-	if(div.style.display !== "none") {
-		div.style.display = "none";
-	}
-	else{
-		div.style.display = "block";
-	}
-}
-
 function showhidecontactinfo(){
 	var div = document.getElementById("contact_info");
 

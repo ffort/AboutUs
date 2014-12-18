@@ -8,7 +8,9 @@
 
 	<body>
 
-		<h1> Welcome to my page! </h1>
+		<div class="page-header">
+			<h1> Welcome to my page! </h1>
+		</div>
 
 		<div id="huck">
 			<img src="images/Nando.jpeg" class="img-responsive img-thumbnail">
@@ -19,7 +21,7 @@
 					<p> I am a senior in college currently majoring in Computer Science. </p>
 					<p> Click here to view my <a href="#">Resume</a> </p>
 			</div>
-				<button id="button" onclick="showhidebio()">Click to show/hide bio</button> <br/>
+				<button  id="button" onclick="showhidebio()">Click to show/hide bio</button> <br/>
 
 		<h3 class="glyphicon glyphicon-camera"> Hobbies </h3>
 			<div id="hobbies">
@@ -27,12 +29,7 @@
 			</div>
 				<button id="button" onclick="showhidehobbies()">Click to show/hide hobbies</button> <br/>
 
-		<h3 class="glyphicon glyphicon-facetime-video"> Why Did I make this site? </h3>
-			<div id="why">
-					<p> This site was made for practicing purposes. </p>
-			</div>
-				<button id="button" onclick="showhidewhy()">Click to show/hide the whys</button> <br/>
-
+	
 		<h3 class="glyphicon glyphicon-earphone">  Contact Information  </h3>
 			<div id = "contact_info" class="table-responsive">
 				<table class="table table-striped table-bordered">
@@ -44,7 +41,7 @@
 						<th> LinkedIn </th>
 					</tr>
 					<tr>
-						<td> 404-823-8852 </td>
+						<td> 404-555-5555 </td>
 						<td> ffort1@student.gsu.edu </td>
 						<td> Ko_Nando </td>
 						<td> Fernando Fort </td>
@@ -55,10 +52,13 @@
 				<button id="button" onclick="showhidecontactinfo()">Click to show/hide contact info</button> <br/>
 
 		<br>
-
-		<div id = "footer">
-			<a href="index.html"> Home Page </a> <br/>
-			<a href="Rodricous.html"> Rodricous's Page </a>
+		<div class="page_link">
+			<nav class="navbar navbar-default" role="navigation">
+	  			<div class="container">
+					<a href="index.html"> Home Page </a>
+					<a href="Rodricous.html"> Rodricous's Page </a>
+				</div>
+			</nav>
 		</div>
 			
 	</body>
