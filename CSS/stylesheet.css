@@ -7,6 +7,7 @@ body{
 
 table{
 	border: dashed;
+	color: red;
 <<<<<<< HEAD
 
 =======
@@ -26,21 +27,38 @@ img{
 	width: 350px;
 }
 
-#bio{
+.jumbotron{
+	background-image: url("http://teddybearmalinois.com/clipart/pageHeaders/astronomyDarkBlueWithStarsr.jpg");
+	opacity: 0.4;
+}
+
+ h1{
+	color:white;
+}
+
+.title{
+	color:white;
+}
+
+.welcome_note{
+	font-color: white;
+}
+
+#bio,#hobbies,#contact_info{
 	color: orange;
+	font-family: Arnoldboecklin, fantasy;
 }
 
-#hobbies{
-	color: red;
+
+.my_bio{
+	border: solid;
 }
 
-#why{
-	color: green;
+.footer{
+	width: 30%;
+	margin: 0 auto;
 }
 
-td{
-	color: red;
-}
 h1{
 	text-align: center;
 >>>>>>> origin/NandosChanges
